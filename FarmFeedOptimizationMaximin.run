@@ -1,6 +1,6 @@
 reset;
 
-model FarmFeedOptimization.mod
+model FarmFeedOptimizationMaximin.mod
 
 option solver cplex;
 

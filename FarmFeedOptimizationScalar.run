@@ -1,0 +1,9 @@
+reset;
+
+model FarmFeedOptimizationScalar.mod
+
+option solver cplex;
+
+solve;
+
+display _varname, _var;
